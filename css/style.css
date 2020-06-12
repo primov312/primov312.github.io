@@ -1,0 +1,183 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: #fbfbfb;
+    height: 585px;
+}
+.menu{
+    width: 85.7%;
+    margin: auto;
+    display: flex;
+    padding: -2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.nav{
+    display: flex;
+    width: 25%;
+}
+.rightContent{
+    display: flex;
+    margin-left: 36%;
+    width: 40%;
+}
+.nav li{
+    font-size: .9em;
+
+}
+.nav a{
+    margin-left: 7%;
+}
+.nav a:hover{
+    color: #d73572;
+    border-bottom: 1px solid #d73572;
+}
+.rightContent button{
+    margin-left: 5%;
+    width: 43.2%;
+    height: 38px;
+    border: 1px solid #d73572;
+    background-color: inherit;
+}
+.rightContent h3{
+    margin-top: 3%;
+}
+.aboutMe{
+    width: 85.7%;
+    margin: auto;
+    display: flex;
+}
+.aboutMe .name {
+margin-top: 10%;
+
+}
+.aboutMe .name h1{
+    font-size: 4em; 
+}
+.personalPhoto{
+    width: 550px;
+    height: 600px;
+    margin-top: -70%;
+    margin-left: 90%;
+}
+.aboutMe .name button{
+    border: none;
+    background-color: #db4933;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+.aboutMe .name .text{
+    margin-left: 70px;
+}
+.section{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.section h3{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+.cards{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.cards .card{
+    text-align: center;
+}
+.section button{
+    margin-top: 5%;
+ ;
+    margin-left: 43%;
+    border:none;
+    background-color: #db4933;
+    height: 40px;
+    width: 240px;
+    color: white;
+    font-size: 1.1em;
+}
+.portfolio{
+    background-color: #fbfbfb;
+}
+.profile img{
+    width: 300px;
+}
+.redSection{
+    width: 100%;
+    background-color: #ff4e2e;
+    text-align: left;
+    height: 300px;
+}
+.textSection h2{
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: -5%;
+}
+.textSection{
+    width: 57%;
+    padding-top: 6.6%;
+    margin: auto;
+    color: white;
+}
+.subtextSection{
+    color: white;
+}
+.profile li{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    margin-left: 0%;
+}
+.container img{
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.card button{
+    border: 2px solid #db4933;
+    background-color: inherit;
+    color: #d73572;
+    width: 200px;
+    height: 50px;
+}
+.contact{
+    display: flex;
+    padding-left: 135px;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.contact img{
+    padding-left: 20px;
+}
+.subFooter{
+    margin-top: 0px;
+}
+footer{
+    background-color: #31293c;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    margin-top: -2.6%;
+    font-size 15px;
+    color: white;
+}
+.footer p{
+    font-size 15px;
+    color: white;
+}
